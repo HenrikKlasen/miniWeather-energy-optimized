@@ -1,0 +1,1 @@
+/opt/apps/easybuild/systems/aion/rhel810-20250803/2023b/epyc/software/OpenMPI/4.1.6-GCC-13.2.0/bin/mpic++ CMakeFiles/parallelfor_test.dir/miniWeather_mpi_parallelfor.cpp.o -o parallelfor_test  -L/lib -lpnetcdf 

@@ -1,0 +1,445 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /opt/apps/easybuild/systems/aion/rhel810-20250803/2023b/epyc/software/OpenMPI/4.1.6-GCC-13.2.0/bin/mpic++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using double precision
+-- The C compiler identification is GNU 13.2.0
+-- The Fortran compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /opt/apps/easybuild/systems/aion/rhel810-20250803/2023b/epyc/software/OpenMPI/4.1.6-GCC-13.2.0/bin/mpicc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /opt/apps/easybuild/systems/aion/rhel810-20250803/2023b/epyc/software/OpenMPI/4.1.6-GCC-13.2.0/bin/mpif90 - skipped
+-- ** YAKL_ARCH not set. Building YAKL for a serial CPU backend **
+-- ** YAKL is using the following compiler flags: -DSIMD_LEN=4 -Ofast -march=native -mtune=native -DNO_INFORM -I/include  **
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /mnt/aiongpfs/users/hklasen/miniWeather/cpp/build
+[  5%] Building CXX object CMakeFiles/serial.dir/miniWeather_serial.cpp.o
+[ 10%] Linking CXX executable serial
+[ 10%] Built target serial
+[ 15%] Building CXX object CMakeFiles/serial_test.dir/miniWeather_serial.cpp.o
+[ 21%] Linking CXX executable serial_test
+[ 21%] Built target serial_test
+[ 26%] Building CXX object CMakeFiles/mpi.dir/miniWeather_mpi.cpp.o
+[ 31%] Linking CXX executable mpi
+[ 31%] Built target mpi
+[ 36%] Building CXX object CMakeFiles/mpi_test.dir/miniWeather_mpi.cpp.o
+[ 42%] Linking CXX executable mpi_test
+[ 42%] Built target mpi_test
+[ 47%] Building CXX object CMakeFiles/parallelfor.dir/miniWeather_mpi_parallelfor.cpp.o
+[ 52%] Linking CXX executable parallelfor
+[ 52%] Built target parallelfor
+[ 57%] Building CXX object CMakeFiles/parallelfor_test.dir/miniWeather_mpi_parallelfor.cpp.o
+[ 63%] Linking CXX executable parallelfor_test
+[ 63%] Built target parallelfor_test
+[ 68%] Building CXX object CMakeFiles/parallelfor_simd_x.dir/experimental/miniWeather_mpi_parallelfor_simd_x.cpp.o
+[ 73%] Linking CXX executable parallelfor_simd_x
+[ 73%] Built target parallelfor_simd_x
+[ 78%] Building CXX object CMakeFiles/parallelfor_simd_x_test.dir/experimental/miniWeather_mpi_parallelfor_simd_x.cpp.o
+[ 84%] Linking CXX executable parallelfor_simd_x_test
+[ 84%] Built target parallelfor_simd_x_test
+[ 89%] Building Fortran object YAKL/CMakeFiles/yakl_fortran_interface.dir/src/YAKL_gator_mod.F90.o
+[ 94%] Building CXX object YAKL/CMakeFiles/yakl_fortran_interface.dir/src/YAKL_fortran_interfaces.cpp.o
+[100%] Linking CXX static library libyakl_fortran_interface.a
+[100%] Built target yakl_fortran_interface
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Using memory pool. Initial size: 31.3975GB ;  Grow size: 31.3975GB.
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+nx_glob, nz_glob: 2048 1024
+dx,dz: 9.765625 9.765625
+dt: 0.032552
+*** OUTPUT ***
+CPU Time: 45.7724 sec
+d_mass: 1.679802e-14
+d_te:   -1.973437e-05
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Mark:       0
+Pool Memory High Water Efficiency: 0
+Pool Memory High Water Efficiency: 0
+============Energy Report MPI======================================
+Program ran for 53.1742 sec
+Used Energy: 14182 J
+Avg. Power: 266.708 W

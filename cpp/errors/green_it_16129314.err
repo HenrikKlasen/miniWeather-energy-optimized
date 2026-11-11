@@ -1,0 +1,17 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/release/default
+CMake Deprecation Warning at YAKL/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+srun: got SIGCONT
+[2026-10-28T20:55:01.255] error: *** JOB 16129314 ON aion-0015 CANCELLED AT 2026-10-28T20:55:01 DUE to SIGNAL Terminated ***
+srun: forcing job termination
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-10-28T20:55:01.256] error: *** STEP 16129314.0 ON aion-0015 CANCELLED AT 2026-10-28T20:55:01 DUE to SIGNAL Terminated ***
